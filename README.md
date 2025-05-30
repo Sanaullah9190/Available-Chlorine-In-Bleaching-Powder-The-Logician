@@ -22,5 +22,5 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Sujal Rastogi | Student | Electronics Engineering | REC-K | sujalrastogi933@gmail.com
 2 | Saksham Saraswat | Student | Electronics Engineering  | REC-K  | adityascience6@gmail.com
-3 | Chandraj Kushwaha | Student | 	Computer Science Engineering | 	chandrajkushwaha98@gmail.com
-4 | Md Sanaullah Ansari | Student | Civil Engineering | sanaullaht9190@gmail.com
+3 | Chandraj Kushwaha | Student | 	Computer Science Engineering | REC-K | 	chandrajkushwaha98@gmail.com
+4 | Md Sanaullah Ansari | Student | Civil Engineering | REC-K | sanaullaht9190@gmail.com
