@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the function of potassium iodide in this experiment?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To act as a reducing agent",
+        "b": "To release chlorine gas",
+        "c": "To liberate iodine by reacting with chlorine",
+        "d": "To neutralize the solution"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
         "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
+        "c": "Potassium iodide reacts with chlorine (from bleaching powder) to liberate iodine, which is then titrated with sodium thiosulphate.",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is the titration reaction between iodine and sodium thiosulphate?",
+      "answers": {
+        "a": "I₂ + 2Na₂S₂O₃ → 2NaI + Na₂S₄O₆",
+        "b": "I₂ + Na₂S₂O₃ → NaI + Na₂S₄O₆",
+        "c": "I₂ + 2Na₂S₂O₃ → NaI + Na₂SO₄",
+        "d": "I₂ + 2Na₂S₂O₃ → 2NaI + S"
+      },
+      "explanations": {
+        "a": " Iodine reacts with sodium thiosulphate to produce sodium iodide and sodium tetrathionate.  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
