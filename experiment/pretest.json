@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which chemical is used to liberate iodine from potassium iodide in the iodometric titration of bleaching powder?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sodium thiosulphate",
+        "b": "Hydrochloric acid",
+        "c": "Sulfuric acid",
+        "d": "Acetic acid"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
         "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
+        "c": "Sulfuric acid is used to acidify the solution. In an acidic medium, chlorine (from bleaching powder) reacts with potassium iodide to liberate iodine. The liberated iodine is then titrated with sodium thiosulphate.",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the role of sodium thiosulphate in this experiment?",
+      "answers": {
+        "a": "Oxidizing agent",
+        "b": "Reducing agent",
+        "c": "Precipitating agent",
+        "d": "Complexing agent"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Sodium thiosulphate reduces the liberated iodine (I₂) back to iodide (I⁻). It gets oxidized to tetrathionate in the process.",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
