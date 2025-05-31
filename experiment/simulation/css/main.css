@@ -1,1 +1,307 @@
-/* You CSS goes in here */
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+}
+
+h1 {
+    box-shadow: 1px 1px 10px rgb(139, 139, 139);
+    padding: 8px;
+    font-size: large;
+    border-radius: 6px;
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.massage {
+    box-shadow: 2px 2px 10px rgb(138, 138, 138);
+    padding: 8px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(203, 42, 61);
+    text-align: center;
+}
+
+/* vedio csss */
+
+.experiment {
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 50vw;
+    height: 67vh;
+    border-radius: 8px;
+
+}
+
+.start {
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background: rgb(242, 188, 117);
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.start:hover {
+    background-color: rgb(251, 180, 0);
+    transform: scale(1.2);
+}
+
+.vedio-box {
+    width: 50vw;
+    height: 67vh;
+    display: none;
+}
+
+.image-1 {
+    display: none;
+}
+
+.image-1 img {
+    width: 100%;
+    height: 63vh;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.vedio-1 {
+    display: none;
+}
+
+.vedio-content {
+    width: 100%;
+    height: 67vh;
+    outline: none;
+    border: none;
+}
+
+.vedio-2 {
+    display: none;
+}
+
+.vedio-3 {
+    display: none;
+}
+
+.vedio-4 {
+    display: none;
+}
+
+.vedio-5 {
+    display: none;
+}
+
+.vedio-6 {
+    display: none;
+}
+
+.vedio-7 {
+    display: none;
+}
+
+.vedio-8 {
+    display: none;
+}
+
+.vedio-9 {
+    display: none;
+}
+
+.vedio-10 {
+    display: none;
+}
+
+
+.oparatus {
+    padding: 1vw;
+    border-radius: 8px;
+    border: 1.5px solid red;
+    width: 20vw;
+    height: 67vh;
+    box-shadow: 1.5px 1.5px 20px rgb(58, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    flex-wrap: wrap;
+    gap: 2.5vw;
+
+}
+
+.buttons div {
+    outline: none;
+    /* width: ; */
+    cursor: pointer;
+    border: none;
+
+}
+
+.buttons img {
+    width: 7vw;
+    height: 15vh;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background-color: rgb(235, 60, 200); */
+    transition: all 1s;
+
+}
+
+.buttons img:hover {
+    transform: scale(1.2);
+}
+
+.buttons p:hover {
+    transform: scale(1.2);
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.data-row {
+    display: none;
+    /* Start with all trial rows hidden */
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+[data-name]:hover::after {
+    content: attr(data-name);
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 1px;
+    z-index: 100;
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .massage {
+        font-size: large;
+        padding: 6px;
+    }
+
+    .vedio-box {
+        width: 95vw;
+        height: 50vh;
+    }
+
+    .image-1 img,
+    .vedio-content {
+        height: 49vh;
+    }
+
+    .buttons {
+        gap: 3vw;
+        flex-wrap: wrap;
+    }
+
+    .buttons img {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .oparatus {
+        padding: 3vw;
+    }
+
+    .start {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    select {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .massage {
+        font-size: medium;
+    }
+
+    .vedio-box {
+        height: 40vh;
+    }
+
+    .image-1 img,
+    .vedio-content {
+        height: 39vh;
+    }
+
+    .buttons img {
+        width: 10vw;
+    }
+
+    .buttons {
+        gap: 4vw;
+    }
+}

@@ -1,13 +1,183 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<body>
+	<!-- Your code goes here-->
+
+	<div class="main-container">
+		<!-- instruction -->
+
+		<h1>Determination of Available Chlorine in Bleaching Powder</h1>
+		<div class="instruction">
+			<div class="massage" value="massage">
+				<p id="massage">Click on Fusion Tube</p>
+			</div>
+		</div>
+
+		<button class="start" id="start">start</button>
+
+		<div class="main">
+			<div class="experiment">
+				<!-- vedio -->
+
+				<div class="vedio-box" id="vedio-box-1">
+
+					<!-- vedio-1-->
+					<div class="image-1" id="image-1">
+						<img id="step-1" src="./images/image-1.png" alt="img-1">
+					</div>
+
+					<!-- vedio-2 -->
+					<div class="vedio-1" id="vedio-1">
+						<video autoplay muted class="vedio-content" id="vedio-content">
+							<source src="./images/step-1.mp4">
+						</video>
+					</div>
+
+					<!-- vedio-3 -->
+					<div class="vedio-2" id="vedio-2">
+						<video autoplay muted class="vedio-content" id="vedio-content">
+							<source src="./images/step-2.mp4">
+						</video>
+					</div>
+
+					<!-- vedio-3 -->
+					<div class="vedio-3" id="vedio-3">
+						<video autoplay muted class="vedio-content" id="vedio-content">
+							<source src="./images/step-3.mp4">
+						</video>
+					</div>
+
+					<!-- vedio-4-->
+					<div class="vedio-4" id="vedio-4">
+						<video autoplay muted class="vedio-content" id="vedio-content">
+							<source src="./images/step-4.mp4">
+						</video>
+					</div>
+
+					<!-- vedio-5-->
+					<div class="vedio-5" id="vedio-5">
+						<video autoplay muted class="vedio-content" id="vedio-content">
+							<source src="./images/step-5.mp4">
+						</video>
+					</div>
+
+					<!-- vedio-6-->
+					<div class="vedio-6" id="vedio-6">
+						<video autoplay muted class="vedio-content" id="vedio-content">
+							<source src="./images/step-6.mp4">
+						</video>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<!-- button  -->
+
+			<div class="oparatus" id="operatus">
+				<div class="buttons">
+
+					<div class="Bleaching-Powder" id="Bleaching-Powder" data-name="Step-1">
+						<img src="./images/bleachich powder.png" alt="bleaching powder">
+						<p style="font-size: small; font-weight: 300;">Bleaching Powder sol<sup>n</sup></p>
+					</div>
+
+					<div class="Potasium-Iodide" id="Potasium-Iodide" data-name="Step-2">
+						<img src="./images/potasium.png" alt="potasium">
+						<p style="font-size: small; font-weight: 300;">Potasiun Iodide</p>
+					</div>
+
+
+					<div class="Acetic-Acid" id="Acetic-Acid" data-name="Step-3">
+						<img src="./images/acetic acid.png" alt="acetic Adid">
+						<p style="font-size: small; font-weight: 300;">Acetic Acic</p>
+					</div>
+
+					<div class="Titraion" id="Titraion" data-name="Step-4">
+						<img src="./images/burette.png" alt="burette">
+						<p style="font-size: small; font-weight: 300;">Titration</p>
+					</div>
+
+					<div class="starch" id="starch" data-name="Step-5">
+						<img src="./images/starch.png" alt="starch">
+						<p style="font-size: small; font-weight: 300;">Starch</p>
+					</div>
+
+					<div class="Titraion-2" id="Titraion-2" data-name="Step-6">
+						<img src="./images/burette.png" alt="burette">
+						<p style="font-size: small; font-weight: 300;">Titration-2</p>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Reaction -->
+
+		<div class="reaction">
+			<div class="result">
+				<p id="reaction">H + O<sub>2</sub> => H<sub>2</sub>O</p>
+			</div>
+		</div>
+
+		<!-- Table -->
+		<div class="table">
+
+			<table>
+				<!-- Header row -->
+				<tr>
+					<th>Trail No.</th>
+					<th>Volume Of Bleaching Powder <br> Solution (ml)</th>
+					<th>Burette Reading<br>initial</th>
+					<th>Burette Reading<br>final</th>
+					<th>Volume Of Titrants (ml)</th>
+				</tr>
+
+				<!-- Data rows -->
+				<tr class="data-row">
+					<td>1</td>
+					<td>25</td>
+					<td>0</td>
+					<td>0</td>
+					<td>10</td>
+				</tr>
+				<tr class="data-row">
+					<td>2</td>
+					<td>25</td>
+					<td>0</td>
+					<td>0</td>
+					<td>10</td>
+				</tr>
+				<tr class="data-row">
+					<td>3</td>
+					<td>25</td>
+					<td>0</td>
+					<td>0</td>
+					<td>10</td>
+				</tr>
+				<tr class="data-row">
+					<td>4</td>
+					<td>25</td>
+					<td>0</td>
+					<td>0</td>
+					<td>10</td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
 </body>
+
 </html>
