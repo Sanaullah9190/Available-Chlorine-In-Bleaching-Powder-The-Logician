@@ -1,4 +1,3 @@
-## Theory
 Bleaching powder (Ca(OCl)Cl or CaCl(OCl)) is widely used as a disinfectant and bleaching agent. The effectiveness of bleaching powder depends on the amount of available chlorine it can release. Available chlorine refers to the amount of chlorine that is liberated when bleaching powder reacts with dilute acids. This chlorine is responsible for the bleaching and disinfecting properties.
 
 The available chlorine is usually determined using iodometric titration. In this method, chlorine released from bleaching powder reacts with potassium iodide (KI) in an acidic medium to liberate iodine (I₂). The liberated iodine is then titrated with sodium thiosulphate (Na₂S₂O₃) solution using starch as an indicator.
